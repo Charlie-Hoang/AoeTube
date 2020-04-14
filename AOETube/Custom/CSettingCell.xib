@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="miso.ttf">
+            <string>Miso</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="TBasicSettingCell" id="dKu-M1-i9F" customClass="CSettingCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="55"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="dKu-M1-i9F" id="zeP-cH-yup">
+                <rect key="frame" x="0.0" y="0.0" width="287" height="55"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="d7V-vI-YOJ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="54"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xiO-KR-q6a">
+                                <rect key="frame" x="10" y="18" width="39.5" height="19"/>
+                                <fontDescription key="fontDescription" name="Miso" family="Miso" pointSize="16"/>
+                                <color key="textColor" red="0.33333333329999998" green="0.33333333329999998" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="xiO-KR-q6a" firstAttribute="leading" secondItem="d7V-vI-YOJ" secondAttribute="leading" constant="10" id="PHP-zH-uC7"/>
+                            <constraint firstItem="xiO-KR-q6a" firstAttribute="centerY" secondItem="d7V-vI-YOJ" secondAttribute="centerY" id="vmz-kV-TDg"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="d7V-vI-YOJ" secondAttribute="bottom" constant="0.5" id="FH7-a2-MWV"/>
+                    <constraint firstItem="d7V-vI-YOJ" firstAttribute="top" secondItem="zeP-cH-yup" secondAttribute="top" id="NRc-q0-B3f"/>
+                    <constraint firstItem="d7V-vI-YOJ" firstAttribute="leading" secondItem="zeP-cH-yup" secondAttribute="leading" id="e7Q-OH-d14"/>
+                    <constraint firstAttribute="trailing" secondItem="d7V-vI-YOJ" secondAttribute="trailing" constant="-33" id="pr0-IR-JzU"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" red="0.77720069889999999" green="0.89351987840000002" blue="0.92605769630000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <connections>
+                <outlet property="ol_title" destination="xiO-KR-q6a" id="cSR-HB-7bf"/>
+            </connections>
+            <point key="canvasLocation" x="335" y="155.5"/>
+        </tableViewCell>
+    </objects>
+</document>

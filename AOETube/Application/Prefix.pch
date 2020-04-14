@@ -1,0 +1,17 @@
+//
+//  Prefix.pch
+//  AlarmA
+//
+//  Created by Cuong Hoang on 5/25/17.
+//  Copyright © 2017 Cuong Hoang. All rights reserved.
+//
+
+#ifndef Prefix_pch
+#define Prefix_pch
+
+#import "CCategories.h"
+#import "Defines.h"
+#import "Macros.h"
+#import "CUtils.h"
+
+#endif /* Prefix_pch */

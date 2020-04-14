@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>976549842026-gvl9qk2enqvg7idbertgemoc2v30cpsb.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.976549842026-gvl9qk2enqvg7idbertgemoc2v30cpsb</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCBsBwguebLwgkuFYaa57GJu0JcgbERraU</string>
+	<key>GCM_SENDER_ID</key>
+	<string>976549842026</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.chick.AOETube</string>
+	<key>PROJECT_ID</key>
+	<string>aoe-tube</string>
+	<key>STORAGE_BUCKET</key>
+	<string>aoe-tube.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<true/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:976549842026:ios:457727f412d8c562</string>
+	<key>DATABASE_URL</key>
+	<string>https://aoe-tube.firebaseio.com</string>
+</dict>
+</plist>
